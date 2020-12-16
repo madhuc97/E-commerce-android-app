@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.026">
+
+
+        <TextView
+            android:id="@+id/painterphoneno2"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/painter_description2"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:fontFamily="serif"
+            android:text="Service Type"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/painter_description6"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="6"
+            android:layout_column="0"
+            android:fontFamily="serif"
+            android:text="Descrpition"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/painter_description7"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="5"
+            android:layout_column="0"
+            android:fontFamily="serif"
+            android:text="Price"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/painter_description8"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:fontFamily="serif"
+            android:text="Expertise"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/painter_phoneno"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:fontFamily="serif"
+            android:text="Phone Number"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/paintername"
+            android:layout_width="200dp"
+            android:layout_height="32dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/painterphoneno"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/painter_description"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="4"
+            android:layout_column="0"
+            android:fontFamily="serif"
+            android:text="Experence"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/painterdescription"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="6"
+            android:layout_column="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/painterdescription2"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="5"
+            android:layout_column="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/painterdescription3"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="4"
+            android:layout_column="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/painterdescription4"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/painter_name"
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:fontFamily="serif"
+            android:text="Name"
+            android:textAlignment="textStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="14sp"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout"
+        app:layout_constraintVertical_bias="0.0">
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

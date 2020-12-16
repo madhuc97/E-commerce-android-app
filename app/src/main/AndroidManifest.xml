@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ecommerce">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AdminhardwareActivity"
+            android:parentActivityName=".AdminhomeActivity"/>
+
+        <activity android:name=".AdminelectricalsActivity"
+            android:parentActivityName=".AdminhomeActivity"/>
+        <activity android:name=".AdminbricksActivity"
+            android:parentActivityName=".AdminhomeActivity"/>
+        <activity android:name=".UserhardwareActivity"
+            android:parentActivityName=".userhomeActivity"/>
+        <activity android:name=".UserelectricalsActivity"
+            android:parentActivityName=".userhomeActivity"/>
+        <activity android:name=".SellerelectricalsActivity"
+            android:parentActivityName=".SellerhomeactivityActivity"/>
+        <activity android:name=".OrderactivityActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserbricksActivity"
+            android:parentActivityName=".userhomeActivity"/>
+        <activity
+            android:name=".HardwareActivity"
+            android:parentActivityName=".SellerhomeactivityActivity" />
+        <activity
+            android:name=".BricksActivity"
+            android:parentActivityName=".SellerhomeactivityActivity" />
+        <activity android:name=".AdminironActivity"
+            android:parentActivityName=".AdminhomeActivity"/>
+        <activity android:name=".AdminpaintActivity"
+            android:parentActivityName=".AdminhomeActivity"/>
+        <activity android:name=".AdmincementActivity"
+            android:parentActivityName=".AdminhomeActivity"/>
+        <activity android:name=".AdminhomeActivity"
+            android:parentActivityName=".AdminloginActivity"/>
+        <activity android:name=".AdminloginActivity"
+            android:parentActivityName=".WelcomeActivity"/>
+        <activity android:name=".SubscribeActivity" />
+        <activity android:name=".UserlabourActivity"
+            android:parentActivityName=".userhomeActivity"/>
+        <activity android:name=".SellerlabourActivity"
+            android:parentActivityName=".SellerhomeactivityActivity"/>
+        <activity android:name=".UserplumberActivity"
+            android:parentActivityName=".userhomeActivity"/>
+        <activity android:name=".SellerplumberActivity"
+            android:parentActivityName=".SellerhomeactivityActivity"/>
+        <activity android:name=".UserpainterActivity"
+            android:parentActivityName=".userhomeActivity"/>
+        <activity android:name=".SellerpainterActivity"
+            android:parentActivityName=".SellerhomeactivityActivity"/>
+        <activity android:name=".UserelectritionActivity"
+            android:parentActivityName=".userhomeActivity"/>
+        <activity android:name=".SellerelectritionActivity"
+            android:parentActivityName=".SellerhomeactivityActivity"/>
+        <activity android:name=".UserconstructorActivity"
+            android:parentActivityName=".userhomeActivity"/>
+        <activity android:name=".SellerconstructorActivity" />
+        <activity
+            android:name=".Usercarpentor"
+            android:parentActivityName=".ConstructionservicesActivity" />
+        <activity
+            android:name=".CarpentorActivity"
+            android:parentActivityName=".SellerconstructionserviceActivity" />
+        <activity
+            android:name=".CartActivity"
+            android:parentActivityName=".userhomeActivity" />
+        <activity
+            android:name=".userhomeActivity"
+            android:label="@string/title_activity_userhome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".newActivity" />
+        <activity
+            android:name=".UseruserironrodActivity"
+            android:parentActivityName=".ConstructionmaterialsActivity" />
+        <activity
+            android:name=".SellerIronrodActivity"
+            android:parentActivityName=".ConstructionmaterialsActivity" />
+        <activity
+            android:name=".UserpaintActivity"
+            android:parentActivityName=".ConstructionmaterialsActivity" />
+        <activity
+            android:name=".SellerconstructionserviceActivity"
+            android:parentActivityName=".Homeactivity" />
+        <activity
+            android:name=".SellerconstructionmaterialActivity"
+            android:parentActivityName=".Homeactivity" />
+        <activity
+            android:name=".SellerhomeactivityActivity"
+            android:parentActivityName=".sellerloginactivity" />
+        <activity
+            android:name=".SellercementActivity"
+            android:parentActivityName=".ConstructionmaterialsActivity" />
+        <activity
+            android:name=".PaintActivity"
+            android:parentActivityName=".SellerconstructionmaterialActivity" />
+        <activity
+            android:name=".UsercementActivity"
+            android:parentActivityName=".ConstructionmaterialsActivity" />
+        <activity
+            android:name=".ConstructionservicesActivity"
+            android:parentActivityName=".Homeactivity" />
+        <activity
+            android:name=".ConstructionmaterialsActivity"
+            android:parentActivityName=".Homeactivity" />
+        <activity
+            android:name=".Homeactivity"
+            android:parentActivityName=".sellerloginactivity" />
+        <activity android:name=".userregisterform" />
+        <activity
+            android:name=".sellerloginactivity"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity android:name=".sellerregisteractivity"
+            android:parentActivityName=".sellerloginactivity"/>
+        <activity
+            android:name=".UserloginActivity"
+            android:parentActivityName=".WelcomeActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_mwCaqfXKBWmzFo" />
+    </application>
+
+</manifest>
